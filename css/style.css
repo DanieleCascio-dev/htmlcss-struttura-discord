@@ -26,6 +26,10 @@
 .b-lightcoral {
   background-color: #f08080;
 }
+
+hr {
+  border: 2px solid #4b4d4f;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -149,8 +153,15 @@ a {
 /* /MAIN */
 
 /* FOOTER */
-footer {
-  height: 600px;
+
+/* footer {
+  height: 500px;
+  background-color: #23272a;
+  padding-top: 1rem;
+} */
+
+.grid-container {
+  height: 350px;
   background-color: #23272a;
   padding-top: 1rem;
 }
@@ -161,7 +172,6 @@ footer {
   height: 300px;
   background-color: aquamarine;
   border: 1px dashed black;
-  margin-bottom: 2rem;
 }
 
 .col {
@@ -173,5 +183,30 @@ footer {
   flex-grow: 1;
   border: 1px dashed black;
 }
+
+/* SIGNED */
+.signed-container {
+  background-color: #23272a;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.signed {
+  width: 70%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-btm,
+.button {
+  padding: 0.4rem;
+  background-color: #ffb6c1;
+  border: 1px dashed black;
+}
+
+/* SIGNED */
 
 /* /FOOTER */
