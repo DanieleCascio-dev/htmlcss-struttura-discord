@@ -125,4 +125,21 @@ a {
 
 /* /SECTION */
 
+/* INFO SECTION */
+
+.info {
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  background-color: #228b22;
+  min-height: 600px;
+  width: 70%;
+  border: 1px dashed black;
+}
+
+/* INFO SECTION */
+
 /* /MAIN */
