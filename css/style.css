@@ -11,6 +11,14 @@
   display: flex;
 }
 
+.section {
+  height: 500px;
+}
+
+.b-white {
+  background-color: white;
+}
+
 /* /COMMON */
 
 /* HEADER */
@@ -33,14 +41,14 @@ nav {
 .logo {
   padding-left: 0.5rem;
   width: 25%;
-  border-right: 1px dotted black;
+  border-right: 1px dashed black;
   font-size: 0.8rem;
 }
 
 .link {
   width: 50%;
   text-align: center;
-  border-right: 1px dotted black;
+  border-right: 1px dashed black;
 }
 
 a {
@@ -63,19 +71,55 @@ a {
 /* HERO  */
 .hero-section {
   background-color: blue;
-  height: 500px;
+  height: 400px;
   justify-content: center;
   align-items: center;
 }
 .hero-container {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
 }
 
 .hero {
-  height: 300px;
+  min-height: 250px;
   background-color: #ee82ee;
-  border: 1px dotted black;
+  border: 1px dashed black;
 }
 
 /* /HERO  */
+
+/* MAIN */
+
+/* SECTION */
+
+.section {
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 70%;
+  min-height: 400px;
+}
+
+.l-blue {
+  background-color: #1e90ff;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.col-big {
+  width: 70%;
+  border: 1px dashed black;
+}
+
+.col-small {
+  width: 30%;
+  border: 1px dashed black;
+}
+
+/* /SECTION */
+
+/* /MAIN */
