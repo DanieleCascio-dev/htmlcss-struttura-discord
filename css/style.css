@@ -22,6 +22,10 @@
 .b-grey {
   background-color: lightgrey;
 }
+
+.b-lightcoral {
+  background-color: #f08080;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -143,3 +147,31 @@ a {
 /* INFO SECTION */
 
 /* /MAIN */
+
+/* FOOTER */
+footer {
+  height: 600px;
+  background-color: #23272a;
+  padding-top: 1rem;
+}
+
+.grid {
+  margin: 0 auto;
+  width: 70%;
+  height: 300px;
+  background-color: aquamarine;
+  border: 1px dashed black;
+  margin-bottom: 2rem;
+}
+
+.col {
+  border: 1px dashed white;
+  width: calc(100% / 6);
+}
+
+.grow {
+  flex-grow: 1;
+  border: 1px dashed black;
+}
+
+/* /FOOTER */
