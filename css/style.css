@@ -19,6 +19,9 @@
   background-color: white;
 }
 
+.b-grey {
+  background-color: lightgrey;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -111,12 +114,12 @@ a {
 }
 
 .col-big {
-  width: 70%;
+  width: 60%;
   border: 1px dashed black;
 }
 
 .col-small {
-  width: 30%;
+  width: 40%;
   border: 1px dashed black;
 }
 
