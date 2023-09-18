@@ -4,3 +4,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
+
+.flex {
+  display: flex;
+}
+
+/* /COMMON */
+
+/* HEADER */
+
+/* NAV */
+nav {
+  height: 80px;
+  background-color: #add8e6;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container {
+  background-color: #daa520;
+  border: 1px dashed black;
+  width: 70%;
+  align-items: baseline;
+}
+
+.logo {
+  padding-left: 0.5rem;
+  width: 25%;
+  border-right: 1px dotted black;
+  font-size: 0.8rem;
+}
+
+.link {
+  width: 50%;
+  text-align: center;
+  border-right: 1px dotted black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.login {
+  padding-right: 0.5rem;
+  width: 25%;
+  font-size: 0.8rem;
+  text-align: end;
+}
+
+/* NAV */
+
+/* /HEADER */
+
+/* HERO  */
+.hero-section {
+  background-color: blue;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.hero {
+  height: 300px;
+  background-color: #ee82ee;
+  border: 1px dotted black;
+}
+
+/* /HERO  */
