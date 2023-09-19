@@ -209,7 +209,8 @@ a {
 /* SIGNED */
 .signed-container {
   background-color: #23272a;
-  height: 100px;
+  /* height: 100px; */
+  padding-top: 2rem;
   align-items: flex-end;
 }
 
